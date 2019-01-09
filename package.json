@@ -1,6 +1,6 @@
 {
   "name": "vue-trivial",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Trivial component to demontrate packaging",
   "author": {
     "name": "Roy Prins",
@@ -9,9 +9,13 @@
   "private": false,
   "repository": "https://github.com/snirp/vue-trivial",
   "bugs": "https://github.com/snirp/vue-trivial/issues",
-  "keywords": ["trivial"],
+  "keywords": [
+    "trivial"
+  ],
   "license": "MIT",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "dist/trivialComponent.umd.js",
   "unpkg": "dist/trivialComponent.umd.min.js",
   "scripts": {
