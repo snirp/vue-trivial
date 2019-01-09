@@ -1,10 +1,23 @@
 {
   "name": "vue-trivial",
   "version": "0.1.0",
-  "private": true,
+  "description": "Trivial component to demontrate packaging",
+  "author": {
+    "name": "Roy Prins",
+    "email": "prinsroy@gmail.com"
+  },
+  "private": false,
+  "repository": "https://github.com/snirp/vue-trivial",
+  "bugs": "https://github.com/snirp/vue-trivial/issues",
+  "keywords": ["trivial"],
+  "license": "MIT",
+  "files": ["dist"],
+  "main": "dist/trivialComponent.umd.js",
+  "unpkg": "dist/trivialComponent.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:npm": "vue-cli-service build --target lib --name trivialComponent src/TrivialComponent.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
